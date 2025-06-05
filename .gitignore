@@ -1,0 +1,69 @@
+# Build directories
+build/
+Debug/
+Release/
+x64/
+x86/
+*.dir/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE specific files
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# SPICE kernel files (if you want to exclude them)
+kernels/*.tls
+kernels/*.tpc
+kernels/*.bsp
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/ 
